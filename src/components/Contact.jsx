@@ -65,14 +65,18 @@ export default function Contact() {
         </div>
 
         {/* Contact Information Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full mb-12 animate-element">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full mb-12 animate-element">
           <a href="mailto:vinaybhardwaj0708@gmail.com" className="p-4 rounded-xl bg-white/5 border border-white/10 hover:border-red-500/30 transition-all duration-300 flex flex-col items-center">
             <span className="text-[10px] uppercase tracking-widest text-red-500 font-mono mb-1">Email Address</span>
-            <span className="text-sm font-light text-gray-300 break-all select-all">vinaybhardwaj0708@gmail.com</span>
+            <span className="text-sm font-light text-gray-300 break-all select-all text-center">vinaybhardwaj0708@gmail.com</span>
           </a>
           <a href="tel:+919888053352" className="p-4 rounded-xl bg-white/5 border border-white/10 hover:border-red-500/30 transition-all duration-300 flex flex-col items-center">
             <span className="text-[10px] uppercase tracking-widest text-red-500 font-mono mb-1">Mobile No</span>
-            <span className="text-sm font-light text-gray-300 select-all">+91-9888053352</span>
+            <span className="text-sm font-light text-gray-300 select-all text-center">+91-9888053352</span>
+          </a>
+          <a href="https://wa.me/919888053352" target="_blank" rel="noopener noreferrer" className="p-4 rounded-xl bg-white/5 border border-white/10 hover:border-red-500/30 transition-all duration-300 flex flex-col items-center">
+            <span className="text-[10px] uppercase tracking-widest text-red-500 font-mono mb-1">WhatsApp</span>
+            <span className="text-sm font-light text-gray-300 select-all text-center">+91 98880 53352</span>
           </a>
           <a href="https://www.linkedin.com/in/dr-vinay-bhardwaj-54a313298/" target="_blank" rel="noopener noreferrer" className="p-4 rounded-xl bg-white/5 border border-white/10 hover:border-red-500/30 transition-all duration-300 flex flex-col items-center">
             <span className="text-[10px] uppercase tracking-widest text-red-500 font-mono mb-1">LinkedIn Profile</span>
